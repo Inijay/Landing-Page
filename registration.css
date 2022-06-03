@@ -4,7 +4,6 @@
     font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
 }
-
 .textfield{
     align-items: center;
     justify-content: space-between;
@@ -25,6 +24,20 @@
     left: 50%;
     transform: translate(-50%,-50%);
     position: absolute;
+}
+.button{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border: 10px solid transparent;
+    padding: 0;
+    border-radius: 10px;
+}
+a.btn{
+    color: white;
+    background-color: blue;
 }
 h3{
     color: white;
